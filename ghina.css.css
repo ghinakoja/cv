@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;300;700&family=Poppins:ital,wght@0,200;0,300;1,300&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 10;
+    
+    box-sizing: border-box;
+  }
+  body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+
+  ul {
+    list-style: none;
+ 
+  }
+  
+header  {
+  height: 700px;;
+  background-color:#88aabe; 
+
+}
+ .navbar {
+  background-color:#88aabe;
+  border-bottom: 3px solid #cccccc; 
+  position: fixed;
+  z-index: 9999;
+  width:100%;
+  padding: 1.5rem 2rem ;
+
+}
+#home #logo{
+  font-weight: 700;
+  font-size: 30px;
+}
+ .navbar nav{
+  display: flex;
+  margin:auto;
+  justify-content:space-between;
+  align-items:center;
+  max-width: 1100px;
+
+}
+
+
+ .navbar nav ul{
+  display: flex;
+  justify-content:space-center;
+  align-items:flex-start;
+
+}
+ .navbar nav ul a{
+margin:0 15px;
+font-weight: 600;
+
+}
+
+.header-content{
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+
+  padding: 6rem 4rem;
+}
+
+
+
+.header-text p{
+  font-size: 24px;
+  font-weight: 50;
+}
+.header-text h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn-education :hover {
+  background: #bce4d1;
+}
+
+
+#education {
+  background: rgb(151, 191, 236);
+  padding: 10rem 4rem;
+}
+
+#educaion .title h2 {
+  color: #161618;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#educaion .title p {
+  color: #240e0e;
+  font-weight: 500;
+  font-size: 24px;
+}
+#educaion .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#contact {
+  background: #88aabe;
+  padding: 300px ;
+}
+#contact .container {
+  max-width: 900px;
+}
+#contact .contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#contact .contact-info {
+  width: 90%;
+  margin: 40px 0;
+}
+#contact .contact-info h3 {
+  font-size: 40px;
+  color: #08085e;
+  margin-bottom: 10px;
+}
+#contact .contact-info p {
+  color: #000000;
+  font-weight: 400;
+}
+
+
+
+
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    padding: 10px;
+  }
+
+  header .content a {
+    font-size: 28px;
+    color: #000000;
+  }
+
+
+  #contact .contact-content {
+    flex-direction: column;
+  }
+
+  @media (max-width: 900px) {
+    #navbar {
+      flex-direction: column;
+    }
+    header .content p  {
+      font-size: 14px;
+    
+    }
+  }
+  #footer {
+    background-color:black;
+    text-align: center;
+    color: #fff;
+
+    font-size: 18 px;
+  
+  }
+ 
+
+ 
+ 
+
+  
+
